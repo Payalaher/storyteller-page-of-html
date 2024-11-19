@@ -1,0 +1,144 @@
+
+/* roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Cedarville+Cursive&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Cedarville+Cursive&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Funnel+Display:wght@300..800&family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Funnel Display", sans-serif; */
+
+
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    background-image: url(anton-CtlZ68KBDIo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    height: 72vh;
+    width: 63%;
+    /* background-color: crimson; */
+    background-image: url(anton-CtlZ68KBDIo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding:3vw 5vw;
+    box-shadow: 0 0 15px 5px rgb(43, 26, 26) ;
+    border-radius:5px ;
+}
+
+.nav{
+    height: 5vh;
+    /* background-color: rgb(136, 255, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.nav a{
+    font-size: .8vw;
+    margin: 0 .5vw;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav i{
+    font-size: 2.5vw;
+    margin-right: 34vw;
+    color: wheat;
+}
+
+.kalman{
+    height: 25vh;
+    /* background-color: darkgoldenrod; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-bottom: -3vw;
+}
+
+.kalman h1{
+    font-size: 3vw;
+    width: 70%;
+    font-family: "Funnel Display", sans-serif;
+    color: #ffff;
+    line-height: 1;
+
+}
+
+.kalman p{
+    margin-top: .8vw;
+    font-size: 1.1vw;
+    line-height: 1.5;
+    width: 50%;
+    color: white;
+
+}
+
+.work{
+    margin-top: 2vw;
+    height: 54%;
+    /* background-color: darkred; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #ffff;
+}
+
+.work h2{
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+.selected{
+    height: 11vh;
+    /* background-color: coral; */
+    display: flex;
+   
+  
+}
+
+.inc{
+    /* background-color: fuchsia; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+   margin: .5vw 2.3vw .5vw 0;
+   line-height: 1.5;}
+
+.inc h1{
+    
+    font-size: 1.2vw;
+}
+
+
+.inc p{
+    font-size: .9vw;
+}
+
+
